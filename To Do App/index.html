@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="stats-container">
+            <div class="details">
+                <h1>Todo App</h1>
+                <p>keep it up</p>
+                <div id="progressBar">
+                    <div id="progress"></div>
+                </div>
+            </div>
+            <div class="stats-numbers">
+                <p id="numbers">2/3</p>
+            </div>
+        </div>
+        <form action="">
+            <input id="taskInput" type="text" placeholder="write your task">
+            <button id="newTask" type="submit"></button>
+        </form>
+        <ul class="task-list">
+            <li class="task-item">
+                <span class="task-text">Sample Task</span>
+                <button class="remove-task">Delete</button>
+            </li>
+        </ul>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
